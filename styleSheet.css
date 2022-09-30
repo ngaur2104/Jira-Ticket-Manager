@@ -97,6 +97,7 @@ body {
     background-color: #d2dae2;
     padding: 2rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 .priorityColor-container {
@@ -119,25 +120,24 @@ body {
 }
 
 .ticketContainer {
-    height: 12rem;
+    height: 14rem;
     width: 16rem;
-    background-color: #f1f2f6;
+    
 }
 
 .ticketColor {
-    height: 1rem;
-    background-color: lightcoral;
+    height: 2rem;
 }
 
 .ticketID {
     height: 2rem;
-    background-color: aqua;
     padding: 0.4rem;
 }
 
 .taskContainer {
-    height: calc(100% - 1rem - 2rem); 
+    height: calc(100% - 1rem - 2rem - 2rem); 
     padding: 0.4rem;
+    outline: none;
 }
 
 .mainContainer {
@@ -146,4 +146,13 @@ body {
     padding: 2rem;
     gap: 2rem;
     justify-content: center;
+}
+
+.ticketLock {
+    height: 2rem;
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    color: #a5b1c2;
 }
